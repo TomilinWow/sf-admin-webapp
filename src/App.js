@@ -4,6 +4,7 @@ import {useTelegram} from "./hooks/useTelegram";
 import {Route, Routes} from 'react-router-dom'
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
+import Product from "./components/ProductList/ProductList";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Header />
             <Routes>
                 <Route index element={<Home />}/>
+                <Route path={'Product'} element={<Product />}/>
             </Routes>
         </div>
     );

@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list h3 {
+    margin-bottom: 15px;
+}
+
+.list-items {
+}
+
+.item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
