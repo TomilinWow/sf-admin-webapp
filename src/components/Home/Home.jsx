@@ -11,9 +11,14 @@ const Home = () => {
     const getProducts = () => {
         history('/Product')
     }
+    const getLk = () => {
+        history('./Lk')
+    }
+
     return (
         <div className={'home'}>
             <h3>Добро пожаловать в Админ панель</h3>
+            <Button className={'products'} onClick={getLk}>Личный кабинет</Button>
             <Button className={'products'} onClick={getProducts}>Каталог</Button>
         </div>
 

@@ -5,6 +5,7 @@ import {Route, Routes} from 'react-router-dom'
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Product from "./components/ProductList/ProductList";
+import Lk from "./components/Lk/Lk";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Routes>
                 <Route index element={<Home />}/>
                 <Route path={'Product'} element={<Product />}/>
+                <Route path={'Lk'} element={<Lk />}></Route>
             </Routes>
         </div>
     );

@@ -13,7 +13,7 @@ const Product = () => {
     }
     return (
         <div>
-            <Button onClick={getHome}>Назад</Button>
+            <Button className={} onClick={getHome}>Назад</Button>
             <h2>Каталог</h2>
             <ItemList/>
         </div>
