@@ -8,7 +8,7 @@ const Item = ({product, className}) => {
         <div className={'product ' + className}>
             <img className={'img'} src="https://source.unsplash.com/random/180×115" alt="фото товара" width={180} height={115} />
             <div className="info">
-                <h4 className={'title'}>{product.title}</h4>
+                <h4 className={'title'}>{product.name}</h4>
                 <p className={'weight'}>{product.weight}г</p>
                 <p className={'description'}>Состав:{product.description}</p>
                 <div className="price">

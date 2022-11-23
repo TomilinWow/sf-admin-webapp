@@ -12,7 +12,7 @@ const Home = () => {
         history('/Product')
     }
     const getLk = () => {
-        history('./Lk')
+        history('/Lk')
     }
 
     return (
