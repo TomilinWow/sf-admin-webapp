@@ -5,7 +5,7 @@ import './Item.css'
 const Item = ({product, className}) => {
 
     return (
-        <div className={'product ' + className} id={product.id}>
+        <div className={'product ' + className} key={product.id}>
             <img className={'img'} src="https://picsum.photos/200/300" alt="фото товара" width={180} height={115} />
             <div className="info">
                 <h4 className={'title'}>{product.name}</h4>
