@@ -23,17 +23,18 @@ function Catalog() {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        const requestOptions = {
-            mode: 'no-cors'
-        };
-        axios.post('http://street.test/api/catalog')
-            .then(function (response) {
+        const apiCatalog = 'http://street.test/api/catalog';
+
+        axios.post(apiCatalog).then(function (response) {
                 console.log(response);
+                console.log(response.data)
+                const catalog = response.data;
+                setItems(catalog);
             })
             .catch(function (error) {
                 console.log(error);
             });
-    })
+    }, [setItems])
     return (
         <div className={'list'}>
             <h3>Каталог</h3>
