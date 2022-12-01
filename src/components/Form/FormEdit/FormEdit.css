@@ -1,0 +1,28 @@
+.form-toggle {
+    display: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-block > label {
+    margin-right: 15px;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.form-btn {
+    display: flex;
+}

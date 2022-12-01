@@ -7,6 +7,12 @@
     border-radius: 12px;
 }
 
+.product-change {
+    display: none;
+}
+.none {
+    display: none;
+}
 .img {
     border-radius: 11px 11px 0px 0px;
 }

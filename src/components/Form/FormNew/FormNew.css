@@ -1,0 +1,13 @@
+.add {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+}
+
+.form-btn {
+    justify-content: space-around;
+}
+

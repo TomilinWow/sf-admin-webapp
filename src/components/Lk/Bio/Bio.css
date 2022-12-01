@@ -1,0 +1,31 @@
+.bio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-title {
+    margin-bottom: 25px;
+}
+
+.bio-info {
+
+}
+
+.bio-info__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.head-title {
+    margin-right: 15px;
+}
+.head-img {
+    border-radius: 50%;
+}
+
+.bio-info__address,
+.bio-info__number {
+    margin-bottom: 15px;
+}
